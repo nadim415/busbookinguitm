@@ -1,51 +1,5 @@
 <?php 
 ob_start();
-?>
-
-
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Route UiTM and Ticket Booking</title>
-    <link rel="stylesheet" href="nav.css">
-     <link rel="stylesheet" href="cssfile/signUp.css">
-    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-
-    <style type="text/css">
-
-     
-body{
- 
-  background-image: url(image/8.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-
-}
-.confirm{
-
-    background-color: black;
-    margin-top: 5px;
-
-
-}
-      
-    </style>
-
-  </head>
-  <body>
-            <?php include("nav.php");
-             ?>
-
-<div class="confirm">
-
-<?php
 
 session_start();
 
@@ -93,6 +47,48 @@ session_start();
   }
 ?>
 
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Route UiTM and Ticket Booking</title>
+    <link rel="stylesheet" href="nav.css">
+     <link rel="stylesheet" href="cssfile/signUp.css">
+    <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+    <style type="text/css">
+
+     
+body{
+ 
+  background-image: url(image/8.jpg);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.confirm{
+
+    background-color: black;
+    margin-top: 5px;
+
+
+}
+      
+    </style>
+
+  </head>
+  <body>
+
+
+<div class="confirm">
+
 </div>
 
          
@@ -101,7 +97,7 @@ session_start();
           <div class="wrapper">
   <div class="registration_form">
     <div class="title">
-      Sign Up for EZfare Bus Service
+      Sign Up as User
     </div>
 
     <form action="#" method="POST">
